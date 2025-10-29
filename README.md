@@ -1,18 +1,41 @@
-# GDR
-“Gioco GDR Java progetto per esercitazione con zaino e inventario aggiornati e visualizzati”
+# 🛡️ GDR Deluxe
 
-# GDR4
+**Gioco di ruolo testuale in Java** per esercitazione con gestione dello zaino, inventario e combattimenti a turni.  
+I personaggi hanno abilità uniche e possono interagire con mercante e nemici.
 
-Gioco di ruolo in Java con personaggi: Guerriero, Mago, Arciere, Drago e Mercante.  
-Il giocatore può scegliere il personaggio, usare pozioni, attaccare nemici e visitare il mercante.
+---
 
-## Come giocare
-1. Aprire il progetto in IntelliJ o compilare via terminale.
-2. Eseguire la classe `GiocoGDR`.
-3. Seguire le istruzioni a schermo.
+## 🏰 Personaggi
+- **Guerriero**: potente e resistente, colpisce con la spada ⚔️.  
+- **Mago**: lancia palle di fuoco 🔥, gestisce il mana.  
+- **Arciere**: colpisce da lontano con precisione 🎯.  
+- **Drago**: il boss finale 🐉.  
+- **Mercante**: vende oggetti e pozioni 💰.
 
-## Funzionalità
-- Sistema di combattimento a turni.
-- Inventario con oggetti e pozioni.
-- Controllo vittoria / sconfitta.
-- Mercante per comprare oggetti.
+---
+
+## 🎮 Come giocare
+1. Apri il progetto in **IntelliJ IDEA** o compila via terminale.  
+2. Esegui la classe `GiocoGDR.java`.  
+3. Segui le istruzioni a schermo per scegliere il personaggio e affrontare i nemici.  
+4. Puoi aprire lo zaino per usare oggetti o curarti con pozioni, e visitare il mercante per comprare equipaggiamento.
+
+---
+
+## ⚔️ Meccaniche principali
+- Combattimento a turni tra personaggi e nemici.  
+- Gestione dell’inventario con oggetti e pozioni.  
+- Controllo vittoria / sconfitta con messaggi “game over” o “vittoria”.  
+- Interazione con il mercante per comprare oggetti con l’oro raccolto.
+
+---
+
+## 💾 Struttura del progetto
+- `src/`: contiene tutti i file `.java`  
+- `GiocoGDR.java`: classe principale del gioco  
+- `Personaggio.java`, `Guerriero.java`, `Mago.java`, `Arciere.java`, `Drago.java`, `Mercante.java`, `Oggetto.java`, `Pozione.java`  
+
+---
+
+## ✨ Autrice
+Creato con passione da **Silvia Damiani** 💖
